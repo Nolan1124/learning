@@ -1,12 +1,15 @@
 # depslib dependency file v1.0
-1505958764 source:d:\mygit\learning\basicimplement\array.c
+1505984485 source:d:\mygit\learning\basicimplement\array.c
 	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"array.h"
 
-1505959715 source:d:\mygit\learning\basicimplement\main.c
+1505983812 source:d:\mygit\learning\basicimplement\main.c
 	<stdio.h>
 	<stdlib.h>
 	"array.h"
 
-1505959912 d:\mygit\learning\basicimplement\array.h
+1505983868 d:\mygit\learning\basicimplement\array.h
 	<stdbool.h>
 
