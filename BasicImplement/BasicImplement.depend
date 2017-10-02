@@ -5,11 +5,21 @@
 	<malloc.h>
 	"array.h"
 
-1505983812 source:d:\mygit\learning\basicimplement\main.c
+1506518329 source:d:\mygit\learning\basicimplement\main.c
 	<stdio.h>
 	<stdlib.h>
 	"array.h"
+	"linklist.h"
 
 1505983868 d:\mygit\learning\basicimplement\array.h
 	<stdbool.h>
+
+1506516248 d:\mygit\learning\basicimplement\linklist.h
+	<stdbool.h>
+
+1506518500 source:d:\mygit\learning\basicimplement\linklist.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"linklist.h"
 

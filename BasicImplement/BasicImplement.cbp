@@ -37,6 +37,11 @@
 		<Unit filename="array.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="linklist.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="linklist.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

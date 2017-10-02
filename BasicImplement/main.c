@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 #include "array.h"
+#include "linklist.h"
 
 int main() {
-    array_ arr;
+    /*array_ arr;
     int len;
     printf("input array length:");
     scanf("%d", &len);
@@ -43,7 +45,32 @@ int main() {
     printArray(&arr);
     clearArray(&arr);
     printArray(&arr);
-    printf("------------test is end.------\n");
+    printf("------------test is end.------\n");*/
+
+
+    int e;
+    LinkList llist = initLinkList();
+    if(createLinkList(llist, 4)){
+        linkListPrint(llist);
+    }
+
+    //llist = clearLinkList(llist);
+    //linkListPrint(llist);
+
+   //getElement(llist, 5, &e);
+   //printf("e:%d", e);
+
+  // e = 10;
+  // linkListInsert(llist, 3, e);
+  // linkListPrint(llist);
+
+  linkListDelete(llist, 3, &e);
+  printf("e:%d\n",e);
+  linkListPrint(llist);
+
+
+
+
 
     return 0;
 }
